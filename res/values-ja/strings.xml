@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="wallpapers">カメラスルー壁紙</string>
+    
+    <string name="wallpaper_walkaround">カメラスルー</string>
+    <string name="wallpaper_walkaround_desc">電話をシースルーにして足もとを見ながら歩けるようにします。</string>
+
+    <!-- Setting -->
+    <string name="walkaround_settings">カメラスルー壁紙の設定</string>
+    <string name="setting_title_camera">カメラ設定</string>
+    <string name="setting_title_other">その他</string>
+    <string name="take_picture_setting">ダブルタップで写真撮影</string>
+    <string name="picture_size_setting">撮影写真の解像度</string>
+    <string name="white_balance_setting">ホワイトバランス</string>
+    <string name="flash_mode_setting">フラッシュモード</string>
+    <string name="focus_mode_setting">フォーカスモード</string>
+    <string name="color_effect_setting">カラーエフェクト</string>
+    <string name="picture_save_to">写真はSDカード配下のCTWフォルダに保存されます</string>
+    <string name="shutter_sound_setting">シャッター音の有無</string>
+    <string name="summary_shutter_sound_on">あり</string>
+    <string name="summary_shutter_sound_off">なし\n(ただし、撮影画像は低解像度のみ)</string>
+    <string name="zoom_setting">ピンチズーム</string>
+    <string name="summary_zoom_on">2本の指でズームできます</string>
+    <string name="summary_zoom_off">ズーム機能オフ</string>
+    <string name="summary_zoom_not_supported">この端末ではズーム機能はサポートされていません</string>
+    <string name="qr_setting">QRコード認識</string>
+    <string name="summary_qr_on">シングルタップでQRコード認識</string>
+    <string name="summary_qr_off">QRコード認識機能オフ</string>
+    <string name="correct_rotation_setting">(実験)カメラの向き変更</string>
+    <string name="summary_correct_rotation">一部の機種でカメラの向きが正しくない件への対応</string>
+    <string name="setting_title_help">ヘルプ</string>
+
+    <!-- Toast message when taking a picture without shutter sound -->
+    <string name="toast_picture_saved">保存完了</string>
+    
+    <!-- Features related to ad click. -->
+    <string name="toast_features_enabled">いくつかの機能が使えるようになりました</string>    
+
+    <!-- Switch camera -->
+    <string name="switch_camera">カメラを選ぶ</string>
+    <string name="camera_facing_back">背面カメラ</string>
+    <string name="camera_facing_front">前面カメラ(鏡モード)</string>    
+
+    <!-- Instruction message when it is impossible to draw camera preview. -->
+    <string name="error_bootup">[エラー] スクリーンをダブルタップして修復して下さい。</string>
+    <string name="error_preview_mode">下のボタンを押して壁紙を有効にして下さい。</string>
+    
+    <!-- Go to a list for selecting live wallpaper. -->
+    <string name="setlivewallpaper">ライブ壁紙として設定する</string>
+    <string name="setlivewallpaper_summary">ライブ壁紙の選択画面を開く</string>
+    <string name="toast_setlivewallpaper">「カメラスルー壁紙」を選んで「壁紙を設定」を押してください</string>
+    
+    <!-- Disabled message -->
+    <string name="not_supported">サポートしていません</string>
+</resources>

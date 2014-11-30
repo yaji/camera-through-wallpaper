@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yaji.viewfinder"
+    android:installLocation="auto"
+    android:versionName="1.9.00.11280"
+    android:versionCode="24">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
+    <uses-feature android:name="android.software.live_wallpaper" />
+    <uses-feature android:name="android.hardware.camera" />
+    
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <application
+        android:label="@string/wallpapers"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_wallpaper" >
+
+        <service
+            android:label="@string/wallpaper_walkaround"
+            android:name=".WalkAroundWallpaper"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/walkaround" />
+        </service>
+        
+        <activity
+            android:label="@string/walkaround_settings"
+            android:name="com.yaji.viewfinder.WalkAroundSettings"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- BOOT_COMPLETED intent receiver -->
+        <receiver android:name=".BootCompletedReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                 <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>  
+        </receiver>
+    </application>
+</manifest>

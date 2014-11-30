@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Application name -->
+    <string name="wallpapers">Camera Through Wallpaper</string>
+
+    <!-- Wallpaper showing the camera preview -->
+    <string name="wallpaper_walkaround">Camera Through</string>
+    <string name="wallpaper_walkaround_desc">See through your phone and walk around without risking accidents.</string>
+
+    <!-- Setting -->
+    <string name="walkaround_settings">Camera Through Wallpaper Settings</string>
+    <string name="setting_title_camera">Camera settings</string>
+    <string name="setting_title_other">Other</string>
+    <string name="take_picture_setting">Double tap to take a picture.</string>
+    <string name="picture_size_setting">Picture size</string>
+    <string name="white_balance_setting">White balance</string>
+    <string name="flash_mode_setting">Flash mode</string>
+    <string name="focus_mode_setting">Focus mode</string>
+    <string name="color_effect_setting">Color effect</string>
+    <string name="picture_save_to">Picture will be saved in /sdcard/CTW folder.</string>
+    <string name="shutter_sound_setting">Shutter sound</string>
+    <string name="summary_shutter_sound_on">On</string>
+    <string name="summary_shutter_sound_off">Off\nLow resolution only</string>
+    <string name="zoom_setting">Pinch zoom</string>
+    <string name="summary_zoom_on">Zoom in/out by pinch gesture</string>
+    <string name="summary_zoom_off">Off</string>
+    <string name="summary_zoom_not_supported">Zoom is not supported in your device.</string>
+    <string name="qr_setting">QR code recognition</string>
+    <string name="summary_qr_on">Single tap to start QR code recognition</string>
+    <string name="summary_qr_off">Off</string>
+    <string name="correct_rotation_setting">(Exper.) Change camera rotation</string>
+    <string name="summary_correct_rotation">If you want to modify camera rotation</string>
+    <string name="setting_title_help">Help</string>
+    
+    <!-- Preference key -->
+    <string name="key_take_picture">key take picture</string>  <!-- Do not translate. -->
+    <string name="key_picture_size">key picture size</string>  <!-- Do not translate. -->
+    <string name="key_white_balance">key white balance</string>  <!-- Do not translate. -->
+    <string name="key_flash_mode">key flash mode</string>  <!-- Do not translate. -->
+    <string name="key_focus_mode">key focus mode</string>  <!-- Do not translate. -->
+    <string name="key_color_effect">key color effect</string>  <!-- Do not translate. -->
+    <string name="key_cameraid">camera id</string>  <!-- Do not translate. -->
+    <string name="key_shutter_sound">key shutter sound</string>  <!-- Do not translate. -->
+    <string name="key_zoom">key zoom</string>  <!-- Do not translate. -->
+    <string name="key_qr">key qr</string>  <!-- Do not translate. -->
+    <string name="key_correct_rotation">key correct rotation</string>  <!-- Do not translate. -->
+    <string name="key_setlivewallpaper">key setlivewallpaper</string>  <!-- Do not translate. -->
+    <string name="key_capture_video">key capture video</string>  <!-- Do not translate. -->
+    <string name="key_title_help">key title help</string>  <!-- Do not translate. -->
+    <string name="key_title_camera">key title camera</string>  <!-- Do not translate. -->
+        
+    <!-- Toast message when taking a picture without shutter sound -->
+    <string name="toast_picture_saved">Saved</string>
+    
+    <!-- Features related to ad click. -->
+    <string name="toast_features_enabled">Several features now enabled.</string>    
+
+    <!-- Switch camera -->
+    <string name="switch_camera">Switch cameras</string>
+    <string name="camera_facing_back">Back camera</string>
+    <string name="camera_facing_front">Front camera</string>    
+
+    <!-- Instruction message when it is impossible to draw camera preview. -->
+    <string name="error_bootup">Error. Tap twice to set this wallpaper again.</string>
+    <string name="error_preview_mode">Press the buttons below to activate the wallpaper.</string>
+
+    <!-- Go to a list for selecting live wallpaper. -->
+    <string name="setlivewallpaper">Set as wallpaper</string>
+    <string name="setlivewallpaper_summary">Launch the LiveWallpaper picker</string>
+    <string name="toast_setlivewallpaper">Choose \"Camera Through Wallpaper\" in the list to start the LiveWallpaper.</string>
+    
+    <!-- Disabled message -->
+    <string name="not_supported">Not supported</string>
+</resources>

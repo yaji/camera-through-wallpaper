@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="correct_rotation_entries">
+        <item>0   degree</item>
+        <item>90  degree</item>
+        <item>180 degree</item>
+        <item>270 degree</item>
+    </string-array>
+
+    <string-array name="correct_rotation_values">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+
+</resources>

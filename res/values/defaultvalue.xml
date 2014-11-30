@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_camera_take_picture">true</bool>
+    <bool name="default_camera_shutter_sound">true</bool>
+    <bool name="default_camera_zoom">true</bool>
+    <bool name="default_camera_qr">true</bool>
+</resources>

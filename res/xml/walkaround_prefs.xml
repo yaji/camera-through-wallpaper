@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/walkaround_settings"
+        android:key="key_walkaround_settings">
+
+    <PreferenceCategory
+        android:key="@string/key_title_camera"
+        android:title="@string/setting_title_camera" >
+
+    <CheckBoxPreference
+            android:key="@string/key_take_picture"
+            android:title="@string/take_picture_setting"
+            android:defaultValue="@bool/default_camera_take_picture"
+            android:persistent="true"
+            android:summaryOn="@string/picture_save_to" />
+
+    <ListPreference
+            android:key="@string/key_picture_size"
+            android:title="@string/picture_size_setting" />
+    
+    <CheckBoxPreference
+            android:key="@string/key_shutter_sound"
+            android:title="@string/shutter_sound_setting"
+            android:summaryOn="@string/summary_shutter_sound_on"
+            android:summaryOff="@string/summary_shutter_sound_off"
+            android:defaultValue="@bool/default_camera_shutter_sound"
+            android:persistent="true" />
+    
+    <CheckBoxPreference
+            android:key="@string/key_zoom"
+            android:title="@string/zoom_setting"
+            android:summaryOn="@string/summary_zoom_on"
+            android:summaryOff="@string/summary_zoom_off"
+            android:defaultValue="@bool/default_camera_zoom"
+            android:persistent="true" />
+    
+    <ListPreference
+            android:key="@string/key_cameraid"
+            android:title="@string/switch_camera" />
+
+    <ListPreference
+            android:key="@string/key_color_effect"
+            android:title="@string/color_effect_setting" />
+
+    <ListPreference
+            android:key="@string/key_white_balance"
+            android:title="@string/white_balance_setting" />
+
+    <ListPreference
+            android:key="@string/key_flash_mode"
+            android:title="@string/flash_mode_setting" />
+
+    <ListPreference
+            android:key="@string/key_focus_mode"
+            android:title="@string/focus_mode_setting" />
+
+    <CheckBoxPreference
+            android:key="@string/key_qr"
+            android:title="@string/qr_setting"
+            android:summaryOn="@string/summary_qr_on"
+            android:summaryOff="@string/summary_qr_off"
+            android:defaultValue="@bool/default_camera_qr"
+            android:persistent="true" />    
+
+    <ListPreference
+            android:key="@string/key_correct_rotation"
+            android:title="@string/correct_rotation_setting"
+            android:entries="@array/correct_rotation_entries"
+            android:entryValues="@array/correct_rotation_values"
+            android:summary="@string/summary_correct_rotation"
+            android:defaultValue="0" />
+    
+    </PreferenceCategory>    
+    
+    <PreferenceCategory 
+        android:key="@string/key_title_help"
+        android:title="@string/setting_title_help" >
+
+    <PreferenceScreen
+        android:key="@string/key_setlivewallpaper"
+        android:title="@string/setlivewallpaper"
+        android:summary="@string/setlivewallpaper_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>
